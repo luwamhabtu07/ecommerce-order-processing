@@ -1,0 +1,19 @@
+Initial List:
+[1] -> [2] -> [3] -> [4] -> NULL
+
+Reversal Process:
+Step 1:
+prev = NULL
+current = [1]
+next = [2]
+
+Step 2:
+current.next = prev
+prev = current
+current = next
+(next = [3])
+
+...
+
+Final Reversed List:
+[4] -> [3] -> [2] -> [1] -> NULL
